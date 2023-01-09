@@ -45,12 +45,12 @@ margin-left: 172px;
   margin-left: 35px;
 }
 
-.header-login a {
+.header-login-link {
 color: #000;
 transition: color 0.2s ease;
 }
 
-.header-login a:hover {
+.header-login-link:hover {
 color: #01996D
 
 }
