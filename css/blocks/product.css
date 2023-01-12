@@ -11,14 +11,22 @@
   justify-content: space-between;
 }
 
-.product-img {
+.product-img-wrapper{
+  position: relative;
   padding-left: 60px;
-  padding-right: 86px;
+  padding-bottom: 74px;
   margin-right: 86px;
 }
 
-.product-img-foto {
+.product-img {
   border-radius: 18px;
+}
+
+
+.product-card {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }
 
 .product-content {
@@ -49,6 +57,4 @@
   max-width: 530px;
 }
 
-.product-content-btn {
 
-}
