@@ -40,8 +40,11 @@ justify-content: space-between;
 }
 
 .story-video {
+  border-radius: 18px;
+  overflow: hidden;
   max-width: 895px;
   position: relative;
+
 
 }
 
