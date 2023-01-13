@@ -1,0 +1,159 @@
+.footer {
+  background-color: #245852;
+  color: #fff;
+  padding: 90px 0 144px;
+}
+
+.footer-logo + * {
+  margin-top: 74px;
+}
+
+.footer-nav {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer-nav li {
+  margin-top: 52px;
+}
+
+.footer-nav li:first-child {
+  margin-top: 0;
+}
+
+.footer-nav a {
+  transition: opacity 0.2 ease;
+}
+
+.footer-nav a:hover {
+  opacity: 0.8
+}
+
+.footer-content h3 {
+  font-size: 40px;
+  padding-bottom: 58px;
+}
+
+.footer-col .social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.footer-col .social-links li {
+  margin: 0 14px;
+}
+
+.footer-col .social-links li a {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.footer-col .social-links li a img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col {
+  padding-bottom: 120px;
+  flex: 1;
+}
+
+.footer-col.social {
+  display: flex;
+  align-items: end;
+  padding-bottom: 0;
+}
+
+.footer-col.install {
+  display: flex;
+  align-items: end;
+  padding-bottom: 0;
+  flex-flow: column;
+  justify-content: end;
+}
+
+.footer-col.install span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 48px;
+  letter-spacing: 2px;
+}
+
+.footer-col.install ul {
+  display: flex;
+}
+
+.footer-col.install ul li {
+  margin-left: 10px;
+  width: 216px;
+  height: 66px;
+}
+
+.footer-col.install ul li a {
+  width: 100%;
+  height: 100%;
+  display: blockr;
+}
+
+.footer-col.install ul li:first-child {
+  margin-left: 0;
+}
+
+@media (max-width: 1024px) {
+  .footer-col .social-links li a {
+    width: 70px;
+    height: 70px;
+    display: block;
+  }
+
+  .footer-col.install ul li {
+    width: 142px;
+    height: 44px;
+  }
+
+  .footer-col .social-links {
+    margin-bottom: -15px;
+  }
+
+  .footer-nav li {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+
+  .footer-content h3 {
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-content {
+    margin-top: 40px;
+  }
+
+  .product {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-col.install {
+    margin-top: 60px;
+  }
+}

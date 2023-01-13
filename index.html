@@ -4,30 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Reset-->
   <link rel="stylesheet" href="./css/styleReset.css">
   <link rel="stylesheet" href="./css/main.css">
-  <!--Blocks-->
-  <link rel="stylesheet" href="./css//blocks/btn.css">
-  <link rel="stylesheet" href="./css//blocks/header.css">
-  <link rel="stylesheet" href="./css/blocks/home.css">
-  <link rel="stylesheet" href="./css/blocks/how-it-works.css">
-  <link rel="stylesheet" href="./css/blocks/story.css">
-  <link rel="stylesheet" href="./css/blocks/product.css">
-  <link rel="stylesheet" href="./css/blocks/productCard.css">
-  <link rel="stylesheet" href="./css/blocks/productCardAvatar.css">
-  <link rel="stylesheet" href="./css/blocks/footer.css">
-  <!--Fonts-->
-  <link rel="stylesheet" href="./css//fonts/Georgia/stylesheet.css">
-  <link rel="stylesheet" href="./css//fonts/Lato/stylesheet.css">
+  <link rel="stylesheet" href="./css/sections/header.css">
+  <link rel="stylesheet" href="./css/sections/how-it-works.css">
+  <link rel="stylesheet" href="./css/sections/story.css">
+  <link rel="stylesheet" href="./css/sections/product.css">
+  <link rel="stylesheet" href="./css/sections/productCard.css">
+  <link rel="stylesheet" href="./css/sections/productCardAvatar.css">
+  <link rel="stylesheet" href="./css/sections/footer.css">
+  <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css">
+  <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css">
   <title>Alivio project</title>
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <div class="header-row">
+      <div class="header-content">
         <div class="header-logo"><img src="./img/Logo.svg" alt="Logo"></div>
         <nav class="header-nav">
+          <span class="menu-icon">Menu</span>
           <ul>
             <li><a href="#">Why Alivio</a></li>
             <li><a href="#">Solutions</a></li>
@@ -36,11 +32,8 @@
           </ul>
         </nav>
         <div class="header-login">
-                <a href="#" class="header-login-link">Sign in</a>
-                <a href="#" class="btn">Start Trial</a>
-
-
-
+          <a href="#" class="header-login-link">Sign in</a>
+          <a href="#" class="btn">Start Trial</a>
         </div>
       </div>
     </div>
@@ -183,21 +176,32 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
+        <div class="footer-col">
+          <h3>Alivio</h3>
+          <div class="footer-nav">
+            <ul>
+              <li><a href="#">Why Alivio</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Pricing</a></li>
 
-        <img src="./img/footerLogo.svg" class="footer-logo" alt="Logo">
-        <div class="footer-nav">
-          <ul>
-            <li><a href="#">Why Alivio</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Pricing</a></li>
-
+            </ul>
+          </div>
+        </div>
+        <div class="footer-col social">
+          <ul class="social-links">
+              <li><a href="#"><img src="./img/fb.png"></a></li>
+              <li><a href="#"><img src="./img/inst.png"></a></li>
+              <li><a href="#"><img src="./img/tw.png"></a></li>
           </ul>
         </div>
-
-
-
-
+        <div class="footer-col install">
+          <span>Discover our solutions</span>
+          <ul class="install-links">
+            <li><a href="#"><img src="./img/play.png"></a></li>
+            <li><a href="#"><img src="./img/apple.png"></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
